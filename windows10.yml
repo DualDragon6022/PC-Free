@@ -11,6 +11,7 @@ services:
       PASSWORD: ${WINDOWS_PASSWORD}
       RAM_SIZE: "10G"
       CPU_CORES: "4"
+      DISK-SIZE: "128G"
     cap_add:
       - NET_ADMIN
     ports:
